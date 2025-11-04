@@ -200,6 +200,11 @@ ped_disk_new (PedDevice* dev)
 		goto error_close_dev;
 	if (!type->ops->read (disk))
 		goto error_destroy_disk;
+	/* Kludge to make sure metadata are updated after read */
+	if (!_disk_push_update_mode (disk))
+		goto error_destroy_disk;
+	if (!_disk_pop_update_mode (disk))
+		goto error_destroy_disk;
 	disk->needs_clobber = 0;
 	ped_device_close (dev);
 	return disk;
