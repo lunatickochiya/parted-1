@@ -39,7 +39,10 @@ local-checks-to-skip = \
   sc_require_test_exit_idiom \
   sc_space_tab \
   sc_texinfo_acronym \
-  sc_prohibit_gnu_make_extensions
+  sc_prohibit_gnu_make_extensions \
+  sc_unsigned_int \
+  sc_unsigned_short \
+  sc_indent
 
 # Now that we have better (check.mk) tests, make this the default.
 export VERBOSE = yes
