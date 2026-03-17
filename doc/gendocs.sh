@@ -3,7 +3,8 @@
 #   mentioned in maintain.texi.  See the help message below for usage details.
 # $Id: gendocs.sh,v 1.16 2005/05/15 00:00:08 karl Exp $
 #
-# Copyright (C) 2003-2007, 2009-2014, 2019-2023 Free Software Foundation, Inc.
+# Copyright (C) 2003-2007, 2009-2014, 2019-2023, 2026 Free Software Foundation,
+# Inc.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -42,7 +43,7 @@ rcs_version=`set - $rcs_revision; echo $2`
 program=`echo $0 | sed -e 's!.*/!!'`
 version="gendocs.sh $rcs_version
 
-Copyright (C) 2005 Free Software Foundation, Inc.
+Copyright (C) 2005, 2026 Free Software Foundation, Inc.
 There is NO warranty.  You may redistribute this software
 under the terms of the GNU General Public License.
 For more information about these matters, see the files named COPYING."
