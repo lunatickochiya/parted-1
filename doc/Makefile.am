@@ -6,7 +6,7 @@ MAKEINFO = makeinfo --no-split
 
 EXTRA_DIST = FAT		\
 			 USER.jp	\
-			 API		\
+			 API.md		\
 			 fdl.texi	\
 			 parted-pt_BR.texi
 
