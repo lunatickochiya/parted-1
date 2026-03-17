@@ -31,11 +31,11 @@
 #include <assert.h>
 #include <limits.h>
 #include <errno.h>
+#include <error.h>
 
 #include "command.h"
 #include "strlist.h"
 #include "ui.h"
-#include "error.h"
 
 #define N_(String) String
 #if ENABLE_NLS

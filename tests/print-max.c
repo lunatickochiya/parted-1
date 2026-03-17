@@ -3,10 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
+#include <error.h>
 
 #include "closeout.h"
 #include "progname.h"
-#include "error.h"
 
 int
 main (int argc, char **argv)
