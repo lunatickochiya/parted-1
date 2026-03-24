@@ -209,8 +209,9 @@ msgid ""
 "This manual page was written by Timshel Knoll E<lt>timshel@debian.orgE<gt>, "
 "for the Debian GNU/Linux system (but may be used by others)."
 msgstr ""
-"Esta página de manual foi escrita por Timshel Knoll E<lt>timshel@debian."
-"orgE<gt>, para o sistema Debian GNU/Linux (mas pode ser usado por outros)."
+"Esta página de manual foi escrita por Timshel Knoll "
+"E<lt>timshel@debian.orgE<gt>, para o sistema Debian GNU/Linux (mas pode ser "
+"usado por outros)."
 
 # type: TP
 #~ msgid "B<-d>"
