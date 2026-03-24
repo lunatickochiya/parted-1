@@ -2,6 +2,38 @@ GNU parted NEWS                                    -*- outline -*-
 
 * Noteworthy changes in release ?.? (????-??-??) [?]
 
+** New Features
+
+   hurd: Support USB device names
+
+** Bug Fixes
+
+   Stop adding boot code into the MBR if it's zero when updating an
+   existing msdos partition table.
+
+   disk.c: Update metadata after reading partition table
+
+   Fix initialization of atr_c_locale inside PED_ASSERT
+
+   nilfs2: Fixed possible sigsegv in case of corrupted superblock
+
+   libparted: Do not detect ext4 without journal as ext2
+
+   libparted: Fix dvh disklabel unhandled exception
+
+   libparted: Fix sun disklabel unhandled exception
+
+   parted: fix do_version declaration to work with gcc 15
+
+   libparted: Fail early when detecting nilfs2
+
+   doc: Document IEC unit behavior in the manpage
+
+   parted: Print the Fixing... message to stderr
+
+   docs: Finish setup of libparted API docs
+
+   libparted: link libparted-fs-resize.so to libuuid
 
 * Noteworthy changes in release 3.6 (2023-04-10) [stable]
 
